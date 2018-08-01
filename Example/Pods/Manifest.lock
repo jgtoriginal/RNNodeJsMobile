@@ -1,0 +1,16 @@
+PODS:
+  - RNNodeJsMobile (0.1.0)
+
+DEPENDENCIES:
+  - RNNodeJsMobile (from `../`)
+
+EXTERNAL SOURCES:
+  RNNodeJsMobile:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RNNodeJsMobile: 67d21ee0f644a4c6e8f5f0055786f220e54e6822
+
+PODFILE CHECKSUM: e5c4ab490794a89585827f171a5bacaedda2d9e2
+
+COCOAPODS: 1.5.3
