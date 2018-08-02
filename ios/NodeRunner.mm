@@ -1,5 +1,5 @@
 #include "NodeRunner.hpp"
-#include <NodeMobile/NodeMobile.h>
+#include "NodeMobile.framework/Headers/NodeMobile.h"
 #include <string>
 #include "rn-bridge.h"
 
