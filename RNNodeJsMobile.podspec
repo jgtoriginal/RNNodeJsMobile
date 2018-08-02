@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.summary               = package['description']
   s.source                = { :git => 'https://github.com/jgtoriginal/RNNodeJsMobile.git', :tag => 'master' }
   s.source_files          = [
-				'ios/*.{h,m,mm,hpp}', 
+				'ios/*.{h,m,mm,hpp,cpp}', 
 				'ios/NodeMobile.framework/Headers/*.{h}', 
 				'ios/libnode/include/node/*.{h}', 
 				'ios/libnode/include/node/**/*.{h}', 
