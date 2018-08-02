@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors               = package['author']
   s.summary               = package['description']
   s.source                = { :git => 'https://github.com/jgtoriginal/RNNodeJsMobile.git', :tag => 'master' }
-  s.source_files          = ['ios/**/*.{h,m,mm,hpp}', 'ios/**/**/*.{h}', 'ios/libnode/include/node/*.{h}', 'ios/libnode/include/node/**/*.{h}', 'ios/libRNNodeJsMobile.a']
+  s.source_files          = ['ios/*.{h,m,mm,hpp}', 'ios/**/**/*.{h}', 'ios/libnode/include/node/*.{h}', 'ios/libnode/include/node/**/*.{h}', 'ios/libRNNodeJsMobile.a']
   s.platform              = :ios, '8.0'
   s.static_framework      = true
   s.cocoapods_version     = ">= 1.2.0"
