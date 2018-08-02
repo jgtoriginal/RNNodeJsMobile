@@ -12,6 +12,20 @@
 		4CF6CCAE5F14CB45D43F6C1718264F4E /* RNNodeJsMobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163AFA27F4DB6C3860B88329742460AB /* RNNodeJsMobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C54778603351A0B83343A13FB671A35 /* Pods-RNNodeJsMobile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F16F6D7FDA72419EB594B811CC2D16 /* Pods-RNNodeJsMobile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EA9604AA5175452829D2F29C621262F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		857C03392112639A009877B6 /* NodeRunner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 857C033121126397009877B6 /* NodeRunner.mm */; };
+		857C033A2112639A009877B6 /* NodeRunner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 857C033121126397009877B6 /* NodeRunner.mm */; };
+		857C033B2112639A009877B6 /* rn-bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 857C033221126397009877B6 /* rn-bridge.cpp */; };
+		857C033C2112639A009877B6 /* rn-bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 857C033221126397009877B6 /* rn-bridge.cpp */; };
+		857C033D2112639A009877B6 /* rn-bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 857C033321126398009877B6 /* rn-bridge.h */; };
+		857C033E2112639A009877B6 /* rn-bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 857C033321126398009877B6 /* rn-bridge.h */; };
+		857C033F2112639A009877B6 /* NodeRunner.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 857C033521126398009877B6 /* NodeRunner.hpp */; };
+		857C03402112639A009877B6 /* NodeRunner.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 857C033521126398009877B6 /* NodeRunner.hpp */; };
+		857C03412112639A009877B6 /* RNNodeJsMobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 857C033621126398009877B6 /* RNNodeJsMobile.h */; };
+		857C03422112639A009877B6 /* RNNodeJsMobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 857C033621126398009877B6 /* RNNodeJsMobile.h */; };
+		857C03432112639A009877B6 /* RNNodeJsMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 857C033721126399009877B6 /* RNNodeJsMobile.m */; };
+		857C03442112639A009877B6 /* RNNodeJsMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 857C033721126399009877B6 /* RNNodeJsMobile.m */; };
+		857C03452112639A009877B6 /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C033821126399009877B6 /* NodeMobile.framework */; };
+		857C03462112639A009877B6 /* NodeMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C033821126399009877B6 /* NodeMobile.framework */; };
 		9EED6EAAE7B5177348D9C4343C62D04C /* Pods-RNNodeJsMobile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 378B36F1E078310C1955C50C529F5DC6 /* Pods-RNNodeJsMobile_Example-dummy.m */; };
 		AADD0F2D7657CF1C75E2DD314ABAC825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C5992AA06C4FD6413B2056B0F1F0ED93 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549BC371E6025CD44EFE0199A42A213 /* ReplaceMe.m */; };
@@ -38,15 +52,15 @@
 
 /* Begin PBXFileReference section */
 		064D0DC54991D028ACB04383127EB893 /* Pods-RNNodeJsMobile_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNNodeJsMobile_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0977E19052EF9F2B4E4BE2EB3CA3428F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0977E19052EF9F2B4E4BE2EB3CA3428F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A9271D777428C952D90A32E924E5843 /* Pods-RNNodeJsMobile_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNodeJsMobile_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0B481DAC443D2AAE92ACD6CB79A7A973 /* Pods-RNNodeJsMobile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNodeJsMobile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		13A5D8A5F9264AF6CF713BFEF13E3BDE /* RNNodeJsMobile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RNNodeJsMobile.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13A5D8A5F9264AF6CF713BFEF13E3BDE /* RNNodeJsMobile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RNNodeJsMobile.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1423E47A05A4A366E9C90CFE491A9DF3 /* Pods-RNNodeJsMobile_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNodeJsMobile_Example-frameworks.sh"; sourceTree = "<group>"; };
 		14F16F6D7FDA72419EB594B811CC2D16 /* Pods-RNNodeJsMobile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNNodeJsMobile_Example-umbrella.h"; sourceTree = "<group>"; };
 		1549BC371E6025CD44EFE0199A42A213 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RNNodeJsMobile/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		163AFA27F4DB6C3860B88329742460AB /* RNNodeJsMobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNNodeJsMobile-umbrella.h"; sourceTree = "<group>"; };
-		28506AA12B84F2E7FBA995021A227443 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		28506AA12B84F2E7FBA995021A227443 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BC1C7F70A727968BDE3FAE0049AE44C /* Pods-RNNodeJsMobile_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNodeJsMobile_Tests-resources.sh"; sourceTree = "<group>"; };
 		378B36F1E078310C1955C50C529F5DC6 /* Pods-RNNodeJsMobile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNNodeJsMobile_Example-dummy.m"; sourceTree = "<group>"; };
 		41026819A8ECA9E1C0BE4BC229C1BC32 /* Pods-RNNodeJsMobile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNodeJsMobile_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,17 +72,25 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A3959248B5C2AF4DA9763F788C08CFB /* Pods-RNNodeJsMobile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNNodeJsMobile_Tests-dummy.m"; sourceTree = "<group>"; };
 		6B5198D6202AA36EBF779B55A78B839E /* RNNodeJsMobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNNodeJsMobile-dummy.m"; sourceTree = "<group>"; };
-		71B0E14FD470EADA8F9D3943BCCDBDEF /* Pods_RNNodeJsMobile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNNodeJsMobile_Tests.framework; path = "Pods-RNNodeJsMobile_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B0E14FD470EADA8F9D3943BCCDBDEF /* Pods_RNNodeJsMobile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNNodeJsMobile_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857C033121126397009877B6 /* NodeRunner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NodeRunner.mm; sourceTree = "<group>"; };
+		857C033221126397009877B6 /* rn-bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rn-bridge.cpp"; sourceTree = "<group>"; };
+		857C033321126398009877B6 /* rn-bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "rn-bridge.h"; sourceTree = "<group>"; };
+		857C033421126398009877B6 /* libnode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libnode; sourceTree = "<group>"; };
+		857C033521126398009877B6 /* NodeRunner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NodeRunner.hpp; sourceTree = "<group>"; };
+		857C033621126398009877B6 /* RNNodeJsMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNodeJsMobile.h; sourceTree = "<group>"; };
+		857C033721126399009877B6 /* RNNodeJsMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNodeJsMobile.m; sourceTree = "<group>"; };
+		857C033821126399009877B6 /* NodeMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NodeMobile.framework; sourceTree = "<group>"; };
 		8AEFC615F38DA08D448A36C0BBB96003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E074A634F0EC9F7C49C1D10B8A16ED8 /* Pods-RNNodeJsMobile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNodeJsMobile_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8F832A09AC221D9AD299FFE170D88B53 /* Pods-RNNodeJsMobile_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RNNodeJsMobile_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04858F68743D055D5DE638FEB1E571A /* Pods-RNNodeJsMobile_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNNodeJsMobile_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A78BDDCDAC2042A769E34024D581F39A /* Pods_RNNodeJsMobile_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNNodeJsMobile_Example.framework; path = "Pods-RNNodeJsMobile_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78BDDCDAC2042A769E34024D581F39A /* Pods_RNNodeJsMobile_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNNodeJsMobile_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0F93A3BFE11FA5960C32B4AB93CEA2 /* Pods-RNNodeJsMobile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNNodeJsMobile_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C9E0A2163AF9E9597CAC1E24709496CB /* RNNodeJsMobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNNodeJsMobile.modulemap; sourceTree = "<group>"; };
 		D9B49FE1981995CB8266F0B3106FE718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF0D8B06920FA78CD8C7A6DE683B633A /* RNNodeJsMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNNodeJsMobile.framework; path = RNNodeJsMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0D8B06920FA78CD8C7A6DE683B633A /* RNNodeJsMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNNodeJsMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E428F7486279AD510707B2DD4A82B6D7 /* Pods-RNNodeJsMobile_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNNodeJsMobile_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5A5BFDF5CC1EF984AD9B0BC372F81EE /* Pods-RNNodeJsMobile_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNNodeJsMobile_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F500C47404AEDCF3B1B3804E954D5802 /* Pods-RNNodeJsMobile_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNNodeJsMobile_Example-resources.sh"; sourceTree = "<group>"; };
@@ -79,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C03452112639A009877B6 /* NodeMobile.framework in Frameworks */,
 				7EA9604AA5175452829D2F29C621262F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C03462112639A009877B6 /* NodeMobile.framework in Frameworks */,
 				D5E8B8FD9DD4D8A504FCD495EBD7F47D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +243,14 @@
 		F1E2C9EDDA22538B45BE8F3D2C097E98 /* RNNodeJsMobile */ = {
 			isa = PBXGroup;
 			children = (
+				857C033421126398009877B6 /* libnode */,
+				857C033821126399009877B6 /* NodeMobile.framework */,
+				857C033521126398009877B6 /* NodeRunner.hpp */,
+				857C033121126397009877B6 /* NodeRunner.mm */,
+				857C033221126397009877B6 /* rn-bridge.cpp */,
+				857C033321126398009877B6 /* rn-bridge.h */,
+				857C033621126398009877B6 /* RNNodeJsMobile.h */,
+				857C033721126399009877B6 /* RNNodeJsMobile.m */,
 				1549BC371E6025CD44EFE0199A42A213 /* ReplaceMe.m */,
 				E9622F95B245C187C895985C910AD488 /* Pod */,
 				3D4553BF72B633384EA1587742E5DEAF /* Support Files */,
@@ -234,7 +266,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C033F2112639A009877B6 /* NodeRunner.hpp in Headers */,
+				857C03412112639A009877B6 /* RNNodeJsMobile.h in Headers */,
 				7C54778603351A0B83343A13FB671A35 /* Pods-RNNodeJsMobile_Example-umbrella.h in Headers */,
+				857C033D2112639A009877B6 /* rn-bridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +277,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C03402112639A009877B6 /* NodeRunner.hpp in Headers */,
+				857C03422112639A009877B6 /* RNNodeJsMobile.h in Headers */,
 				4CF6CCAE5F14CB45D43F6C1718264F4E /* RNNodeJsMobile-umbrella.h in Headers */,
+				857C033E2112639A009877B6 /* rn-bridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C033C2112639A009877B6 /* rn-bridge.cpp in Sources */,
 				C5992AA06C4FD6413B2056B0F1F0ED93 /* ReplaceMe.m in Sources */,
 				2F66122DCA760A9B8944230FB058BE7A /* RNNodeJsMobile-dummy.m in Sources */,
+				857C03442112639A009877B6 /* RNNodeJsMobile.m in Sources */,
+				857C033A2112639A009877B6 /* NodeRunner.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857C033B2112639A009877B6 /* rn-bridge.cpp in Sources */,
 				9EED6EAAE7B5177348D9C4343C62D04C /* Pods-RNNodeJsMobile_Example-dummy.m in Sources */,
+				857C03432112639A009877B6 /* RNNodeJsMobile.m in Sources */,
+				857C03392112639A009877B6 /* NodeRunner.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

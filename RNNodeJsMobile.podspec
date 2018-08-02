@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jgtoriginal' => 'jgtoriginal@gmail.com' }
-  s.source           = { :git => 'git://github.com/jgtoriginal/RNNodeJsMobile.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git://github.com/jgtoriginal/RNNodeJsMobile.git', :tag => 'master' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RNNodeJsMobile/Classes/**/*'
+  s.source_files = 'RNNodeJsMobile/**/*'
   
   # s.resource_bundles = {
   #   'RNNodeJsMobile' => ['RNNodeJsMobile/Assets/*.png']
